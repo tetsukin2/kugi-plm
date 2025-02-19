@@ -57,9 +57,11 @@ To run the application, follow these steps:
 4. Start the application:
 
    - If using `Live Server` (downloaded through VS Code extension):
+     
      ![Live Server](assets/images/liveserver.png)
 
    - right-click `index.html` and select **Open with Live Server** or Click "Go Live" in the bottom right of the VS Code.
+     
      ![Turn on Live Server](assets/images/liverserver2.png)
 
 
