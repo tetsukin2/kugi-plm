@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>kugi-plm</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header-container">
+      <h2 id="product-title">Loading...</h2>
+      <div>
+        <!-- <label for="api-selector">Select API:</label> -->
+        <select id="api-selector" onchange="switchAPI()">
+          <option value="api1">API 1</option>
+          <option value="api2">API 2</option>
+        </select>
+        <button class="submit-btn" onclick="submitChanges()">Submit</button>
+      </div>
+    </div>
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr id="table-header">
+            <th>Material</th>
+          </tr>
+        </thead>
+        <tbody id="data-table"></tbody>
+      </table>
+    </div>
+
+    <!-- Modal Structure -->
+    <div id="confirmation-modal" class="modal">
+      <div class="modal-content">
+        <h3>Confirm Changes</h3>
+        <div id="modal-body" class="modal-body">
+          <p id="modal-text"></p>
+        </div>
+        <div class="modal-buttons">
+          <button id="confirm-btn" class="modal-btn confirm">Confirm</button>
+          <button id="cancel-btn" class="modal-btn cancel">Cancel</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
