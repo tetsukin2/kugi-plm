@@ -175,7 +175,10 @@ async function sendDataToBackend() {
     console.log("Sending data to backend:", requestBody);
 
     const response = await fetch(
-      "https://imei-mrp-dev.topfuntek.com/kugi_plm/material_version_adjust/",
+      proxyUrl +
+        encodeURIComponent(
+          "https://imei-mrp-dev.topfuntek.com/kugi_plm/material_version_adjust/"
+        ),
       {
         method: "POST",
         headers: {
