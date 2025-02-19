@@ -54,10 +54,7 @@ To run the application, follow these steps:
 
    - right-click `index.html` and select **Open with Live Server** or Click "Go Live" in the bottom right of the VS Code.
      ![Turn on Live Server](assets/images/liverserver2.png)
-   - If using a Node.js static server:
-     ```sh
-     npx http-server .
-     ```
+
 
 3. Open `index.html` in your browser manually if no server is used.
 
