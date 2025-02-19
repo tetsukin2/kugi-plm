@@ -19,7 +19,7 @@ To bypass CORS issues and allow API requests, follow these steps:
 1. Clone this repository:
 
    ```sh
-   git clone [https://github.com/your-repo/project.git](https://github.com/tetsukin2/kugi-plm.git)
+   git clone https://github.com/tetsukin2/kugi-plm.git
    ```
 
 2. Navigate to the CORS proxy directory (if separate):
