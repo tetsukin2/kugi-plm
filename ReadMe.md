@@ -53,7 +53,7 @@ To run the application, follow these steps:
      ![Live Server](assets/images/liveserver.png)
 
    - right-click `index.html` and select **Open with Live Server** or Click "Go Live" in the bottom right of the VS Code.
-     ![Turn on Live Server](assets/images/liveserver2.png)
+     ![Turn on Live Server](assets/images/liverserver2.png)
    - If using a Node.js static server:
      ```sh
      npx http-server .
