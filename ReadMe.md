@@ -47,19 +47,23 @@ To bypass CORS issues and allow API requests, follow these steps:
 To run the application, follow these steps:
 
 1. Open the project directory in a terminal.
-2. Start a local web server:
+2. Start the proxy server, This is a necessary requirement to run the application:
+3. 
+   ```sh
+   cd cors-proxy
+   node server.js
+   ```
+   
+4. Start the application:
 
    - If using `Live Server` (downloaded through VS Code extension):
      ![Live Server](assets/images/liveserver.png)
 
    - right-click `index.html` and select **Open with Live Server** or Click "Go Live" in the bottom right of the VS Code.
-     ![Turn on Live Server](assets/images/liveserver2.png)
-   - If using a Node.js static server:
-     ```sh
-     npx http-server .
-     ```
+     ![Turn on Live Server](assets/images/liverserver2.png)
 
-3. Open `index.html` in your browser manually if no server is used.
+
+5. Open `index.html` in your browser manually if no server is used.
 
 ## Configuration
 
