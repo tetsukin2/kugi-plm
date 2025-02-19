@@ -22,13 +22,13 @@ To bypass CORS issues and allow API requests, follow these steps:
    git clone https://github.com/tetsukin2/kugi-plm.git
    ```
 
-2. Navigate to the CORS proxy directory (if separate):
+2. Navigate to the CORS proxy directory:
 
    ```sh
    cd cors-proxy
    ```
 
-3. Install dependencies (if applicable):
+3. Install dependencies:
 
    ```sh
    npm install
